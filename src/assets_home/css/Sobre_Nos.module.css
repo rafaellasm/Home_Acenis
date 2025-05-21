@@ -96,7 +96,7 @@
     }
 }
 
-@media screen and (max-width: 667px) and (min-width: 360px) {
+@media screen and (max-width: 667px) {
 
     .sobre_nos {
         width: 90%;
@@ -141,5 +141,16 @@
 
     .imagens img {
         display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sobre_nos .saiba_mais .circle {
+        position: absolute;
+        left: 72.9%;
+        transform: translateX(-50%);
+        bottom: 21.6%; 
+        width: 35px;
+        height: 35px;
     }
 }

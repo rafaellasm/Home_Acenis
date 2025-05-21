@@ -96,7 +96,7 @@
     }
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 667px) and (min-width: 360px) {
 
     .sobre_nos {
         width: 90%;

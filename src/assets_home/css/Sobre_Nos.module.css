@@ -126,9 +126,13 @@
         align-items: center;
     }
 
+    .sobre_nos .saiba_mais button{
+        width: 200px;
+    }
+
     .sobre_nos .saiba_mais .circle {
         position: absolute;
-        left: 65%;
+        left: 69.9%;
         transform: translateX(-50%);
         bottom: 24.6%; 
         width: 35px;

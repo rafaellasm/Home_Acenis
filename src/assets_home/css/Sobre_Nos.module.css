@@ -69,7 +69,7 @@
         .circle {
             position: absolute;
             left: 33.1%;
-            bottom: 29.5%;
+            bottom: 29.4%;
             width: 40px;
             height: 40px;
             background-color: #F2A4A4;
@@ -99,17 +99,18 @@
 @media screen and (max-width: 667px) {
 
     .sobre_nos {
+        width: 90%;
         align-items: center;
         flex-direction: column;
         text-align: center;
     }
 
-    .sobre_nos .sobre_acenis{
-        margin-top: 10%; 
+    .sobre_nos .sobre_acenis {
+        margin-top: 20%;
     }
 
     .sobre_nos .sobre_acenis .paragrafo_acenis {
-        font-size: 20px;
+        font-size: 24px;
         padding: 50px;
         text-align: center;
     }
@@ -119,9 +120,19 @@
         display: none;
     }
 
-    .saiba_mais button,
-    .saiba_mais span {
-        display: none;
+    .porcentagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre_nos .saiba_mais .circle {
+        position: absolute;
+        left: 65%;
+        transform: translateX(-50%);
+        bottom: 24.6%; 
+        width: 35px;
+        height: 35px;
     }
 
     .imagens img {

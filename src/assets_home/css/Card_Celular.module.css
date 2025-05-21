@@ -8,8 +8,8 @@
     display: none;
 
     & .container_verde {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         background-image: linear-gradient(#5BE8A4, #FFF);
         border-radius: 30px;
         display: flex;
@@ -19,18 +19,18 @@
 
         & h2 {
             font-family: "Baloo Thambi", sans-serif;
-            font-size: 40px;
+            font-size: 50px;
         }
 
         & p {
-            font-size: 20px;
+            font-size: 25px;
             font-weight: 600;
         }
     }
 
     & .container_rosa {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         background-image: linear-gradient(#F76C8C, #FFF);
         border-radius: 30px;
         display: flex;
@@ -40,18 +40,18 @@
 
         & h2 {
             font-family: "Baloo Thambi", sans-serif;
-            font-size: 40px;
+            font-size: 50px;
         }
 
         & p {
-            font-size: 20px;
+            font-size: 25px;
             font-weight: 600;
         }
     }
 
     & .container_azul {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         background-image: linear-gradient(#1971C2, #FFF);
         border-radius: 30px;
         display: flex;
@@ -61,11 +61,11 @@
 
         & h2 {
             font-family: "Baloo Thambi", sans-serif;
-            font-size: 40px;
+            font-size: 50px;
         }
 
         & p {
-            font-size: 20px;
+            font-size: 25px;
             font-weight: 600;
         }
     }
@@ -78,8 +78,10 @@
         display: flex;
         flex-direction: column;
     }
-
-   .container_rosa,.container_azul{
+    
+   
+    .container_rosa,
+    .container_azul {
         margin-top: 25px;
-   }
+    }
 }

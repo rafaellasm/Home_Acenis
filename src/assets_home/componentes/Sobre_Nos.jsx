@@ -24,10 +24,11 @@ function Sobre_Nos() {
                         <p>Clientes</p>
                     </div>
                     <div className={Styles.saiba_mais}>
-                        <button type='button'>Saiba mais</button>
-                        <span className={Styles.circle}>
-                            <img src={Seta} alt="Seta saiba mais" />
-                        </span>
+                        <button type='button'>Saiba mais
+                            <span className={Styles.circle}>
+                                <img src={Seta} alt="Seta saiba mais" />
+                            </span>
+                        </button>
                     </div>
                 </div>
             </div>

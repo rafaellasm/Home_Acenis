@@ -127,7 +127,9 @@
     }
 
     .sobre_nos .saiba_mais button{
+        width: 200px;
         padding: 0px;
+        color: #000;
     }
 
     .sobre_nos .saiba_mais .circle {

@@ -1,0 +1,135 @@
+.conteudo_vire_membro {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url("../images/vire_membro/vire_membro_acenis.png");
+    background-size: 67.5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 20%;
+
+    & .vire_membro {
+        width: 30%;
+        position: absolute;
+        left: 65%;
+        top: 37%;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    & .imagem_flor {
+        width: 30%;
+        position: absolute;
+        left: 70%;
+        bottom: 40%;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    & .ver_planos {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+
+        & h2 {
+            font-size: 70px;
+            font-family: "Baloo Thambi", sans-serif;
+            color: #2392EB;
+            text-align: center;
+            line-height: 1.1;
+            letter-spacing: 2px;
+        }
+
+        & .muda_cor {
+            font-family: "Baloo Thambi", sans-serif;
+            color: #EBCA5C;
+        }
+
+        & p {
+            font-weight: 700;
+            font-size: 24px;
+            margin-top: 5%;
+        }
+
+        & button {
+            width: 40%;
+            height: 40px;
+            margin-top: 30px;
+            border-radius: 20px;
+            border: none;
+            background-color: #74EAB8;
+            font-weight: 700;
+            font-size: 18px;
+            padding-right: 30px;
+            cursor: pointer;
+        }
+
+        .circle {
+            position: absolute;
+            left: 61%;
+            bottom: 1%;
+            width: 35px;
+            height: 35px;
+            background-color: #F2A4A4;
+            border-radius: 50%;
+
+            & img {
+                width: 50%;
+                position: absolute;
+                top: 25%;
+                left: 25%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 667px){
+    .conteudo_vire_membro{
+        background-size: 95%;
+        margin-top: 0%;
+    }
+
+    .conteudo_vire_membro .vire_membro {
+        width: 45%;
+        left: 55%;
+    }
+
+    .conteudo_vire_membro .imagem_flor{
+        top: 8%;
+    }
+
+    .conteudo_vire_membro .ver_planos{
+        left: 10%;
+        width: 50%;
+    }
+
+    .conteudo_vire_membro .ver_planos h2{
+        font-size: 35px;
+    }
+
+    .conteudo_vire_membro .ver_planos p{
+        font-size: 16px;    
+        text-align: center;
+    }
+
+    .conteudo_vire_membro .ver_planos button{
+        width: 60%;
+        height: 35px;
+        padding-right: 0;
+            
+    }
+
+    .circle{
+        display: none;
+    }
+}

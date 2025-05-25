@@ -8,12 +8,13 @@
     background-position: center;
 
     & h1 {
-        padding-left: 5%;
+        padding-left: 4%;
         padding-top: 10%;
-        font-size: 80px;
+        font-size: 150px;
         font-family: "Baloo Thambi", sans-serif;
         color: #2392EB;
         text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.342);
+        letter-spacing: 10px;
     }
 
     & .muda_cor {
@@ -23,8 +24,8 @@
 
     & p {
         font-weight: 800;
-        padding-left: 5%;
-        font-size: 20px;
+        padding-left: 4%;
+        font-size: 28px;
     }
 }
 

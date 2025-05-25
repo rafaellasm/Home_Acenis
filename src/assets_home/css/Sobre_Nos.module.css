@@ -12,12 +12,11 @@
         display: flex;
         flex-direction: column;
         margin-left: 10%;
-        margin-top: 15%;
-
+        
         & .titulo_acenis {
             font-family: "Baloo Thambi", sans-serif;
             color: #2B7FC1;
-            font-size: 45px;
+            font-size: 55px;
         }
 
         & .paragrafo_acenis {
@@ -40,7 +39,7 @@
 
             & h2 {
                 font-family: "Baloo Thambi", sans-serif;
-                font-size: 40px;
+                font-size: 55px;
             }
 
             & p {
@@ -60,7 +59,7 @@
             border-radius: 30px;
             border: none;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 23px;
             padding-right: 40px;
             margin-left: 20%;
             cursor: pointer;
@@ -68,8 +67,8 @@
 
         .circle {
             position: absolute;
-            left: 33.1%;
-            bottom: 29.4%;
+            left: 36.1%;
+            bottom: 32%;
             width: 40px;
             height: 40px;
             background-color: #F2A4A4;
@@ -88,10 +87,11 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 30%;
+        margin-top: 10%;
 
         & img {
             width: 100%;
+            margin: -20px;
         }
     }
 }
@@ -120,13 +120,13 @@
         display: none;
     }
 
-    .porcentagem{
+    .porcentagem {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .sobre_nos .saiba_mais button{
+    .sobre_nos .saiba_mais button {
         width: 200px;
         padding: 0px;
         color: #000;
@@ -141,3 +141,36 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .sobre_nos {
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .sobre_nos .sobre_acenis .paragrafo_acenis {
+        font-size: 24px;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .container_porcentagem h2,
+    .container_porcentagem p {
+        display: none;
+    }
+
+    .porcentagem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sobre_nos .saiba_mais .circle {
+        display: none;
+    }
+
+    .imagens img {
+        display: none;
+    }
+}

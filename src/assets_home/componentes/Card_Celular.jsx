@@ -20,4 +20,4 @@ function Card_Celular() {
     )
 }
 
-export default Card_Celular
+export default Card_Celular;

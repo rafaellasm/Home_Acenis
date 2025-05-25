@@ -1,0 +1,187 @@
+.conteudo_acenis {
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(#fcbed7,#fff);
+    margin-top: 55%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.carrossel_container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #74EAB8;
+    color: #000;
+    padding: 10px 0;
+
+    & .carrossel_texto {
+        display: inline-flex;
+        white-space: nowrap;
+        padding-left: 100%;
+        animation: scroll 30s linear infinite;
+
+        & p {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 64px;
+            padding-left: 50px;
+        }
+    }
+}
+
+.precisa_ajuda {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h2 {
+        font-size: 50px;
+        margin-top: 5%;
+        font-family: "Baloo Thambi", sans-serif;
+        letter-spacing: 2px;
+    }
+
+    & hr{
+        width: 100px;
+        height: 3px;
+        background-color: #F76C8C;
+        border: none;
+        border-radius: 100px;
+    }
+
+    & p {
+        font-size: 22px;
+        margin-top: 1%;
+    }
+}
+
+.flores {
+    width: 15%;
+    position: absolute;
+    top: 11%;
+    left: -90px;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.flores2 {
+    width: 20%;
+    position: absolute;
+    top: 79%;
+    left: -120px;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.flores3 {
+    width: 15%;
+    position: absolute;
+    top: 12%;
+    right: -90px;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.container_chatbot {
+    width: 50%;
+    height: 380px;
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+
+    & .chatbot {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px;
+
+        & img {
+            width: 50%;
+        }
+
+        & h3 {
+            font-size: 24px;
+        }
+
+        & p {
+            text-align: center;
+            margin-top: 2%;
+        }
+
+        & button {
+            width: 30%;
+            height: 35px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 3%;
+            background-color: #F76C8C;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+            font-family: "Baloo Thambi", sans-serif;
+            text-shadow: 1px 1px 3px black;
+        }
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width: 667px){
+    .precisa_ajuda {
+        text-align: center;
+        margin-top: 10px;
+
+        & h2{
+            font-size: 50px;
+        }
+
+        & p{
+            font-size: 20px;
+            padding: 30px;
+        }
+    }
+
+    .container_chatbot{
+        width: 90%;
+        height: 420px;
+    }
+
+    .container_chatbot .chatbot{
+        padding: 0 10px;
+    }
+
+    .container_chatbot .chatbot img{
+        width: 70%;
+    }
+
+    .container_chatbot .chatbot p{
+        font-size: 18px;
+    }
+
+    .container_chatbot .chatbot button{
+        width: 50%;
+        margin-top: 25px;
+    }
+}

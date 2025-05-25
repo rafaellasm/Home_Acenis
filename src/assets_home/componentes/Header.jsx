@@ -22,11 +22,8 @@ function Header() {
                     <li><img className={Styles.icone} src={Loja} alt="Icone Loja" /><a href="#">Loja</a></li>
                 </ul>
             </nav>
-            <div className={Styles.entrar}>
-                <button type='button'>Entrar</button>
-            </div>
         </header>
     )
 }
 
-export default Header
+export default Header;

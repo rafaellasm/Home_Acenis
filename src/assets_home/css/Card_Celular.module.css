@@ -85,3 +85,23 @@
         margin-top: 25px;
     }
 }
+
+@media screen and (max-width: 1024px){
+     .container_porcentagem {
+        display: block;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 20%;
+    }
+    
+   
+    .container_rosa,
+    .container_azul {
+        margin-top: 25px;
+    }
+
+    .container_rosa, .container_azul, .container_verde{
+        width: 200px;
+        height: 200px;
+    }
+}

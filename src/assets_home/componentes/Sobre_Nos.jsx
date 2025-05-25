@@ -40,4 +40,4 @@ function Sobre_Nos() {
     )
 }
 
-export default Sobre_Nos
+export default Sobre_Nos;
